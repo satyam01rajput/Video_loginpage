@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .vid {
+            position: fixed;
+        }
+
+        .overlapping {
+            position: absolute;
+            top: 10px;
+            left: 450px;
+        }
+
+        .main {
+            height: 400px;
+            width: 300px;
+            border: 0.1px solid white;
+            box-shadow: 0px 0px 0.8px 0.5px white;
+            margin: auto;
+            margin-top: 100px;
+            opacity: 0.8;
+
+        }
+
+        .first {
+            color: white;
+            text-shadow: 0px 0px 2px white;
+            font-size: 20px;
+            margin-left: 80px;
+            margin-top: 50px;
+            opacity: 0.6;
+        }
+
+        .first:hover {
+            transition: 1s;
+            transform: scale(1.2);
+        }
+
+        .user {
+
+            height: 40px;
+            width: 250px;
+            border-radius: 24px;
+            align-items: center;
+            text-align: center;
+            margin-left: 26px;
+            margin-top: 30px;
+            opacity: 0.6;
+        }
+
+        .user:hover {
+            transition: 1s;
+            transform: scale(1.1);
+        }
+
+        .pass {
+            height: 40px;
+            width: 250px;
+            border-radius: 24px;
+            align-items: center;
+            text-align: center;
+            margin-left: 26px;
+            margin-top: 30px;
+            opacity: 0.6;
+        }
+
+        .pass:hover {
+            transition: 1s;
+            transform: scale(1.1);
+
+        }
+
+
+        .sign {
+            height: 40px;
+            width: 250px;
+            border-radius: 24px;
+            align-items: center;
+            text-align: center;
+            margin-left: 26px;
+            margin-top: 30px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            cursor: pointer;
+            box-sizing: border-box;
+            opacity: 0.6;
+        }
+
+        .sign:hover {
+            transition: 1s;
+            transform: scale(1.2);
+        }
+
+
+        .last {
+            margin-top: 15px;
+            margin-left: 15px;
+            color: white;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+    }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="vid"><video src="videos/140111 (Original).mp4" muted loop autoplay height="100%" width="100%"></video>
+    </div>
+
+    <div class="overlapping">
+        <div class="main">
+            <div class="first">Login To Account</div>
+
+            
+                <div class="username"><input class="user" type="search" name="username" value="" placeholder="Username">/</div>
+        
+
+
+                <div class="password"><input class="pass" type="password" name="username" value=""
+                        placeholder="password">
+                </div>
+                <div class="password"><input class="sign" type="submit" name="username" value="Sign IN"></div>
+
+                <div class="last">
+                    <pre><input type="checkbox" name="rememberme" checked value=""> Remeber Me        <a href="" target="_blank">Forgot password?</a></pre>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
